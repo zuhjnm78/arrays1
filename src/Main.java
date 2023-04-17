@@ -1,3 +1,5 @@
+
+import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
@@ -40,11 +42,11 @@ public class Main {
         int [] array3 = {-5, 2, 0};
 
         System.out.print(array1[0]+ ", " + array1[1]+ ", " + array1[2]);
-        System.out.println("\n");
+        System.out.println();
         System.out.print(array2[0]+ ", " + array2[1]+ ", " + array2[2]);
-        System.out.println("\n");
+        System.out.println();
         System.out.print(array3[0]+ ", " + array3[1]+ ", " + array3[2]);
-        System.out.println("\n");
+        System.out.println();
     }
     public static void task3() {
 
@@ -59,11 +61,22 @@ public class Main {
         int [] array3 = {-5, 2, 0};
 
         System.out.print(array1[2]+ ", " + array1[1]+ ", " + array1[0]);
-        System.out.println("\n");
+        System.out.println();
         System.out.print(array2[2]+ ", " + array2[1]+ ", " + array2[0]);
-        System.out.println("\n");
+        System.out.println();
         System.out.print(array3[2]+ ", " + array3[1]+ ", " + array3[0]);
-        System.out.println("\n");
+        System.out.println();
 
     }
+    public static void task4() {
+
+        System.out.println("Задача 4");
+    int[] array4 = new int[] {1, 2, 3};
+for (int i = 0; i < array4.length; i++) {
+        if (array4[i] % 2 != 0) {
+            array4[i]++;
+        }
+    }
+        System.out.println(Arrays.toString(array4));
 }
+    }
