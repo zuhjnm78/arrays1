@@ -42,11 +42,11 @@ public class Main {
         int [] array3 = {-5, 2, 0};
 
         System.out.print(array1[0]+ ", " + array1[1]+ ", " + array1[2]);
-        System.out.println("\n");
+        System.out.println();
         System.out.print(array2[0]+ ", " + array2[1]+ ", " + array2[2]);
-        System.out.println("\n");
+        System.out.println();
         System.out.print(array3[0]+ ", " + array3[1]+ ", " + array3[2]);
-        System.out.println("\n");
+        System.out.println();
     }
     public static void task3() {
 
@@ -61,11 +61,11 @@ public class Main {
         int [] array3 = {-5, 2, 0};
 
         System.out.print(array1[2]+ ", " + array1[1]+ ", " + array1[0]);
-        System.out.println("\n");
+        System.out.println();
         System.out.print(array2[2]+ ", " + array2[1]+ ", " + array2[0]);
-        System.out.println("\n");
+        System.out.println();
         System.out.print(array3[2]+ ", " + array3[1]+ ", " + array3[0]);
-        System.out.println("\n");
+        System.out.println();
 
     }
     public static void task4() {
